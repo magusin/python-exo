@@ -129,7 +129,7 @@ family = ['Thomas',21.6,'Sara',24.7,'Robert',15.4 ]
 # Crée 3 copies de family avec les 3 méthodes
 family_copy1 = list(family)
 family_copy2 = family.copy()
-family_copy3 = family[0:6]
+family_copy3 = family[ : ]
 
 # Supprime le premier élément de family_copy1
 del(family_copy1[0])
